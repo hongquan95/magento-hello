@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Weather Title</title>
+        <css src="Robin_Bai1::css/style.css"/>
+
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Robin\Bai1\Block\Weather" name="demo_bai1" template="weather.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

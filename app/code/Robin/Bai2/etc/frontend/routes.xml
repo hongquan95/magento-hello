@@ -3,12 +3,9 @@
     <!--Use router 'standard' for frontend route-->
     <router id="standard">
         <!--Define a custom route with id and frontName-->
-        <route frontName="helloworld" id="helloworld">
+        <route frontName="bai2" id="bai2">
             <!--The module which this route match to-->
-            <module name="Mageplaza_HelloWorld"/>
-        </route>
-        <route id="customer">
-            <module name="Mageplaza_HelloWorld" before="Magento_Customer" />
+            <module name="Robin_Bai2"/>
         </route>
     </router>
 </config>
